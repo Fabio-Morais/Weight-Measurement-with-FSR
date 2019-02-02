@@ -2,7 +2,7 @@
 
 ----
 
-##### In this assignment, the main goal was to project and implement a weight measurement system based on FSR (Force Sensing Resistor) technology. For that, we would have to develop an electronic circuit for signal conditioning and a virtual instrument to acquire the signals from a data acquisition board. Afterwards we characterized both static and dynamic behavior of the FSR sensors to calibrate them and to have a reliable representation of the applied pressure. 
+##### The main goal was to project and implement a weight measurement system based on FSR (Force Sensing Resistor) technology. For that, we would have to develop an electronic circuit for signal conditioning and a virtual instrument to acquire the signals from a data acquisition board. Afterwards we characterized both static and dynamic behavior of the FSR sensors to calibrate them and to have a reliable representation of the applied pressure. 
 
 ----
 
