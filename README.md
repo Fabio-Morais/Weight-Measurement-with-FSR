@@ -35,7 +35,7 @@ Reparámos também que o peso mínimo de deteção rondava os cerca de 250g send
 Decidimos utilizar um divisor resistivo para poder ter uma queda de tensão correspondente a cada patamar de peso e através de um amplificador comparador foi possível desenvolver um sistema que tem uma gama dinâmica de medições compreendido entre -10V e 10V consoante vai tendo mais peso a ser aplicado. Foi utilizado ainda à saída um filtro passa baixo para reduzir ruído eletromagnético induzido pelas lâmpadas e equipamentos circundantes. 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/35969631/52054711-50d38c80-2555-11e9-8121-0b529bcb497c.png" >
+  <img src="https://user-images.githubusercontent.com/35969631/52054711-50d38c80-2555-11e9-8121-0b529bcb497c.png" width="390" height="100">
 </p>
 
 Com este par de resistor / capacitor conseguimos produzir um filtro passa baixo que teoricamente atenua frequencias a partir de 0,72Hz o que é ótimo para o que queremos. 
