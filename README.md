@@ -6,6 +6,24 @@
 
 ----
 
+**Este projeto irá ser implementado recorrendo ao [labview](http://www.ni.com/en-us/shop/labview/labview-details.html), ao uso de uma tecnologia FSR (Force Sensing Resistor) e uma placa de aquisição de dados.**
+
+
+#### Objectivos:
+* Projectar e implementar um sistema para a medição do peso ou de pressão exercida na
+planta do pé
+* Desenvolver um circuito electrónico para condicionamento de sinal de sensores resistivos
+de força (FSR) para ligação a sistema de aquisição de dados e instrumentação virtual
+* Caracterizar estática e dinamicamente os sensores e calibrar o sistema de medição de
+pressões
+* Desenvolver um instrumento virtual que efectue uma representação fidedigna das pressões no pé
+
+#### Descrição:
+Os sensores resistivos de força são utilizados em diversas aplicações de interacção pessoamáquina, como p.ex., o pedal electrónico, o joystick ou diversos tipos de teclados. Actualmente, encontram-se também em uso em aplicações que envolvem medições de pressão ou força em áreas da indústria ou da saúde. Coloca-se no entanto o problema da fiabilidade das medições e, em particular da sua reprodutibilidade. Na execução deste projecto será, por isso, fundamental avaliar as características estáticas e dinâmicas dos sensores e proceder à sua calibração.
+
+----
+
+## Solução:
 
 Foram colocados diversos pesos de modo a obter uma caracterização adequada e completa do sistema de medição. Sem pressão tivemos um valor de resistência na ordem dos Mega Ohms, sendo que o ultímetro apresentou o seu valor máximo de 40MΩ.
 Reparámos também que o peso mínimo de deteção rondava os cerca de 250g sendo que a resistência assumia logo o patamar de alguns kΩ.
@@ -46,3 +64,11 @@ O diagrama de blocos em Labview está representada na figura seguinte
 
 
 **Relatorio do trabalho [aqui](https://github.com/fabiouds/Weight-Measurement-with-FSR/blob/master/Report.pdf)**
+
+----
+
+#### Referências
+1. Interlink Electronics FSR sensors, http://www.interlinkelectronics.com
+2. IEE FSR sensors, http://www.iee.lu
+3. TekScan, http://www.tekscan.com
+4. Interlink FSR Guide, http://www.imagesco.com/sensors/fsr/fsrguide.pdf
